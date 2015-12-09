@@ -158,6 +158,27 @@ define(
 
             initialize: function(options) {
                 this.options = options || {};
+
+                /**
+                 * 初始化预加载部分控制器
+                 */
+                var self = this;
+                require(this.preLoadControllers,
+                    function() {
+                        $.each(arguments,function(index,Controller) {
+                            var controllerName = self.preLoadControllers[index].split("/").pop();
+                            var controllerInstance = new Controller({
+                                name: controllerName,
+                                router: self
+                            });
+                            cachedControllers[controllerName] = controllerInstance;
+                            $.log(controllerName+" preload",controllerName);
+                        });
+                    },
+                    function(err) {
+                        $.warn('AppRouter#dispatchController: Error for loading controller: ' + controller, err);
+                    }
+                );
             },
 
             dispatchController: function(controller, action, params) {

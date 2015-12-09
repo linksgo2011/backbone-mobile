@@ -1,0 +1,24 @@
+<div class="page" id="pages-bindEvent-page" >
+    <header class="m-header">
+        <span class="lt-bar back" data-role="back"><i class="am-icon-angle-left"></i></span>
+        <div class="head">
+            <h1 class="font-gray">事件绑定</h1>
+        </div>
+    </header>
+    <div style="padding:10px">
+        演示如何在控制器和action中绑定一个事件
+        <p></p>
+        <a href="" class="am-btn am-btn-primary am-btn-block">点击我</a>
+        <pre>
+……
+bindEvent: function() {
+    this.bindEventView.render({});
+
+    this.bindEventView.$el.on("click", ".am-btn-block", function(event) {
+        $.alert("你点击了按钮!");
+    });
+},
+……
+        </pre>
+    </div>
+</div>

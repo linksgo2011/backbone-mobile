@@ -32,7 +32,7 @@ define(
         // the link href will be used for router's dispatching.
         function attachRouterToLinks() {
 
-            this.$('a:not([href^="http://"])').off('click').on('click', $.proxy(function(e) {
+            this.$('a:not([href^="http"])').off('click').on('click', $.proxy(function(e) {
                 var link = $(e.currentTarget).attr('href');
                 if (link.indexOf('#') === 0) {
                     return;
@@ -97,7 +97,7 @@ define(
                 var that = this;
                 var current_page = transitions.curPage || "index-page";
 
-                setTimeout($.loadingHide,1500);
+                setTimeout($.loadingHide,1200);
 
                 if (appBooted) {
                     var transitioner = !Backbone.history.isBack?"next":"back";

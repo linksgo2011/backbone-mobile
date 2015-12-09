@@ -123,23 +123,23 @@ right:0px;
   border-right: 1px solid #ddd;
 }
 
-#store-detail-page .am-panel{
+#pages-index-page .am-panel{
   display:block;
   margin-bottom:0px;
 }
-#store-detail-page .am-panel .am-panel-hd{
+#pages-index-page .am-panel .am-panel-hd{
   background: #fff;
   position: relative;
 }
-#store-detail-page .am-panel-hd p{
+#pages-index-page .am-panel-hd p{
   font-size: 16px;
   margin:0px;
 }
-#store-detail-page .am-panel-hd .address,#store-detail-page .am-panel-hd .boss{
+#pages-index-page .am-panel-hd .address,#pages-index-page .am-panel-hd .boss{
   font-size: 12px;
 }
 
-#store-detail-page .am-panel .am-icon-angle-right{
+#pages-index-page .am-panel .am-icon-angle-right{
   position: absolute;
   top:50%;
   margin-top:-10px;
@@ -147,31 +147,31 @@ right:0px;
   font-size: 18px;
   line-height:18px;
 }
-#store-detail-page .am-list{
+#pages-index-page .am-list{
   margin:0px;
   border-top:0px solid #ddd;
 }
-#store-detail-page .am-list .title{
+#pages-index-page .am-list .title{
   border-top:0px solid #ddd;
   background: #f5f5f5;
 }
-#store-detail-page .am-list .value{
+#pages-index-page .am-list .value{
   float: right;
 }
-#store-detail-page .features a{
+#pages-index-page .features a{
   padding:0px;
   line-height: 30px;
   color:#333;
 }
-#store-detail-page .features .am-icon-angle-right{
+#pages-index-page .features .am-icon-angle-right{
   float:right;
   font-size: 18px;
 }
-#store-detail-page .btn-groups{
+#pages-index-page .btn-groups{
   padding:10px;
   margin-bottom: 30px;
 }
-#store-detail-page .btn-groups a{
+#pages-index-page .btn-groups a{
   font-size: 16px;
   font-weight:lighter;
 }

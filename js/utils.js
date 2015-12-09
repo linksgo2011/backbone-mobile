@@ -20,6 +20,11 @@ define(['jquery'], function($) {
         loadingHide: function() {
             var $el = $("#loadding-modal");
             $("#loadding-modal").modal('close');
+        },
+        actionSheet:function(option){
+            var $el = $("#actionsheet-modal");
+            $el.modal(option);
+            return $el;
         }
     });
 });

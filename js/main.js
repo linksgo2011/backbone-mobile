@@ -95,7 +95,6 @@
         });
     });
 
-    //load jquery plugins, backbone plugins //TODO this is a bit ugly
     require(
         [
             'jquery',
