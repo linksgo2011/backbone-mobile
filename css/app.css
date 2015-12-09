@@ -1,0 +1,179 @@
+.m-header{
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.m-header .lt-bar,.m-header .rt-bar{
+  display:inline-block;
+  width: 40px;
+  height:40px;
+  text-align: center;
+  vertical-align: middle;
+  top:0px;
+  position: absolute;
+}
+.m-header .am-icon-angle-left{
+  font-size:30px;
+  font-weight: lighter;
+}
+.m-header .am-icon-search{
+  font-size:16px;
+  font-weight: lighter;
+}
+.m-header .lt-bar{
+  left: 0px;
+}
+.m-header .text{
+  color: #666;
+}
+.m-header .head{
+  padding: 0 50px;
+  text-align:center;
+  overflow: hidden;
+}
+.m-header .head h1{
+    font-size: 16px;
+  font-weight:lighter;
+}
+.m-header .rt-bar{
+right:0px;
+}
+.am-badge{
+  border-radius:4px;
+  font-weight: lighter;
+}
+
+#index-page .panels{
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#index-page .panels a{
+  display:block;
+  padding: 10px;
+  color:#666;
+}
+#index-page .am-panel .am-icon-angle-right{
+  float: right;
+  font-size: 18px;
+  line-height: 18px
+}
+#index-page .panels .am-panel-bd{
+  padding: 0px;
+}
+
+
+#index-page .am-panel .am-u-sm-6:first-child{
+  border-right: 1px solid #ddd;
+}
+
+/*门店列表*/
+.storelist .am-form{
+  margin:0px;
+}
+.storelist select{
+    height: 30px;
+    line-height: 30px;
+    font-size:13px;
+    padding:0px;
+}
+.storelist .panels{
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.storelist .am-panel{
+  display:block;
+}
+.storelist .am-panel-hd{
+  padding:10px;
+  background: #fff;
+  position:relative;
+}
+.storelist .am-panel-hd p{
+  margin:0px;
+}
+.storelist .am-panel-hd .address{
+  font-size: 12px;
+}
+
+.storelist .panels .am-u-sm-4{
+  display:block;
+  padding:5px 0;
+  color:#666;
+  font-size: 12px;
+  text-align:center;
+}
+.storelist .am-panel .am-icon-angle-right{
+  font-size: 18px;
+  line-height: 18px;
+  position:absolute;
+  right:10px;
+  top:50%;
+  margin-top:-10px;
+}
+.storelist .panels .am-panel-bd{
+  padding: 0px;
+}
+
+.storelist .am-panel .am-u-sm-6:first-child{
+  border-right: 1px solid #ddd;
+}
+
+#pages-index-page .am-panel{
+  display:block;
+  margin-bottom:0px;
+}
+#pages-index-page .am-panel .am-panel-hd{
+  background: #fff;
+  position: relative;
+}
+#pages-index-page .am-panel-hd p{
+  font-size: 16px;
+  margin:0px;
+}
+#pages-index-page .am-panel-hd .address,#pages-index-page .am-panel-hd .boss{
+  font-size: 12px;
+}
+
+#pages-index-page .am-panel .am-icon-angle-right{
+  position: absolute;
+  top:50%;
+  margin-top:-10px;
+  right:10px;
+  font-size: 18px;
+  line-height:18px;
+}
+#pages-index-page .am-list{
+  margin:0px;
+  border-top:0px solid #ddd;
+}
+#pages-index-page .am-list .title{
+  border-top:0px solid #ddd;
+  background: #f5f5f5;
+}
+#pages-index-page .am-list .value{
+  float: right;
+}
+#pages-index-page .features a{
+  padding:0px;
+  line-height: 30px;
+  color:#333;
+}
+#pages-index-page .features .am-icon-angle-right{
+  float:right;
+  font-size: 18px;
+}
+#pages-index-page .btn-groups{
+  padding:10px;
+  margin-bottom: 30px;
+}
+#pages-index-page .btn-groups a{
+  font-size: 16px;
+  font-weight:lighter;
+}
+
+

@@ -1,0 +1,23 @@
+<div class="page" id="pages-modal-page" >
+    <header class="m-header">
+        <span class="lt-bar back" data-role="back"><i class="am-icon-angle-left"></i></span>
+        <div class="head">
+            <h1 class="font-gray">弹窗 演示</h1>
+        </div>
+    </header>
+    <div style="padding:10px">
+        演示如何在控制器打开modal
+        <p></p>
+        <a href="" class="am-btn am-btn-primary am-btn-block">点击我</a>
+        <pre>
+……
+modal: function() {
+    this.modalView.render({});
+    this.modalView.$el.on("click", ".am-btn-block", function(event) {
+        $("#no-button-modal").modal();
+    });
+},
+……
+        </pre>
+    </div>
+</div>

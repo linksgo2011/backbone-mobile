@@ -1,0 +1,24 @@
+<div class="page" id="pages-alert-page" >
+    <header class="m-header">
+        <span class="lt-bar back" data-role="back"><i class="am-icon-angle-left"></i></span>
+        <div class="head">
+            <h1 class="font-gray">alert 演示</h1>
+        </div>
+    </header>
+    <div style="padding:10px">
+        演示如何在控制器打开alert
+        <p></p>
+        <a href="" class="am-btn am-btn-primary am-btn-block">点击我</a>
+        <pre>
+……
+alert: function() {
+    this.alertView.render({});
+
+    this.alertView.$el.on("click", ".am-btn-block", function(event) {
+        $.alert("快去github加star吧");
+    });
+},
+……
+        </pre>
+    </div>
+</div>

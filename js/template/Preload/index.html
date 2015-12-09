@@ -1,0 +1,17 @@
+<div class="page" id="Preload-index-page" >
+    <header class="m-header">
+        <span class="lt-bar back" data-role="back"><i class="am-icon-angle-left"></i></span>
+        <div class="head">
+            <h1 class="font-gray">预加载控制器</h1>
+        </div>
+    </header>
+    <div style="padding:10px">
+        预加载会在首页加载应用时一起加载进来，因此首页加载会变慢，但是体验会变好,不会出现loadding
+        需要修改 app-router.js
+<pre>
+    ……  
+    preLoadControllers: ['controller/PreloadController'],
+    ……  
+</pre>
+    </div>
+</div>
