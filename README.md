@@ -1,3 +1,4 @@
+
 # backbone-mobile
  工程化构建高性能移动webAPP项目骨架。使用backbone、requirejs、amazeui等项目构建
  
@@ -9,6 +10,10 @@
 4.   可维护性
 5.   集成UI套件以及页面过渡动画
 6.   资源按需加载和预加载
+
+# demo 预览
+
+http://linksgo2011.github.io/backbone-mobile/
 
 # 为什么需要 backbone-mobile
     
@@ -137,7 +142,7 @@ define(
  </pre>
 
   
-  这样路由中的controllern对应这文件，而第二段对应了文件中的update方法，当url第一次被请求时，控制器的initialize 方法会被执行。
+  这样路由中的controller对应这文件，而第二段对应了文件中的update方法，当url第一次被请求时，控制器的initialize 方法会被执行。
   然后每次请求都会执行update方法。
   
   我们可以在init方法中初始化view，然后在update方法中编写我们的业务逻辑
@@ -147,10 +152,6 @@ define(
  # 项目打包
     
 使用requirejs开发的项目可以直接被打包成一个文件，提高加载效率，使用非常方便，项目根目录下放置了一个gruntfile文件，可以阅读该文件，使用nodejs相关模块打包即可。
-
- # demo 预览
- 
- http://linksgo2011.github.io/backbone-mobile/
  
  # 配合后端API
  
